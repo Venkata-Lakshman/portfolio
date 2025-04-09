@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Venkata's Portfolio | Responsive Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/4009632f6f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Venkata Nimmagadda</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <!-- <li><a href="#projects">Projects</a></li> -->
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="section">
+      <div class="section__container">
+        <div class="image">
+          <img src="Venkata.jpeg" alt="profile" />
+        </div>
+        <div class="content">
+          <h1 class="subtitle">HELLO<strong>👋</strong></h1>
+          <h1 class="title">
+            I'm Venkata Nimmagadda<br />
+        </h1>
+        
+          <p class="description">
+            I’m a data engineer passionate about solving tough data challenges and transforming 
+            messy, complex data into scalable, reliable solutions that drive smarter business 
+            decisions. With 5 years of experience, I’ve built pipelines that saved time, improved 
+            system efficiency, and helped organizations trust their data more. What sets me apart 
+            is my holistic approach — I don’t just build pipelines, I focus on the entire data flow,
+             considering automation, governance, security, and cost while ensuring the data provides
+              real business value. By bridging the gap between technical and business teams, I t
+              ranslate SQL and Spark into actionable insights. I stay hands-on with modern tools and
+               technologies like SQL, Python, Spark, Snowflake, DBT, Airflow, and Azure, AWS, while 
+               always being curious about the 'why' behind the work. Whether it’s improving query 
+               speeds, reducing processing time, or ensuring meaningful dashboards, I see every 
+               challenge as an opportunity to make data work smarter.
+          </p>
+          <!-- <div class="action__btns">
+            <button class="Resume">Resume</button>
+          </div> -->
+        </div>
+        
+      </div>
+    </section>
+
+    
+
+    <section id="experience" class="experience-section">
+      <h2>Experience</h2>
+
+      <div class="timeline">
+        <!-- First Role -->
+        <div class="timeline-item">
+          <div class="icon">
+            <img src="Pilot flying J.png" alt="Pilot Flying J" />
+          </div>
+          <div class="timeline-content">
+            <h3>Data Engineer Intern</h3>
+            <h4>Pilot Flying J</h4>
+            <span class="date">May 2024 - March 2025</span>
+            <p>
+              As a Data Engineer Intern at Pilot Flying J, I assisted in processing large 
+              volumes of data from AWS S3 into Databricks using PySpark and SQL. 
+              I contributed to building fact tables to track fuel consumption, 
+              in-store purchases, and truck driver services, supporting the analysis of 
+              customer interactions. I also worked on optimizing dimension tables, 
+              improving query performance and enabling faster decision-making. 
+              I helped streamline data marts focused on loyalty customer behavior, 
+              improving reporting efficiency. Additionally, I supported the automation of 
+              ETL workflows, reducing manual effort and improving data accuracy through 
+              validation and cleansing scripts. Collaborating with cross-functional teams, 
+              I assisted in improving data accessibility and helped develop Power BI 
+              dashboards to provide insights for management decision-making.
+            </p>
+            <ul class="skills">
+              <li class="skill-box">Data Pipeline Development (Databricks, PySpark, SQL)</li>
+              <li class="skill-box">ETL Process Optimization (AWS Glue, Lambda)</li>
+              <li class="skill-box">Data Transformation & Integration</li>
+              <li class="skill-box">Real-Time Data Processing (Apache Kafka, Spark Structured Streaming)</li>
+              <li class="skill-box">Database Optimization (MySQL, PostgreSQL, MongoDB)</li>
+              <li class="skill-box">Data Warehousing (Redshift, S3)</li>
+              <li class="skill-box">Business Intelligence Reporting (Power BI, Tableau)</li>
+              <li class="skill-box">Collaborative Problem Solving (Cross-functional Teams)</li>
+              <li class="skill-box">Customer Segmentation (Loyalty Programs, Spending Behavior Analysis)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Second Role -->
+        <div class="timeline-item">
+          <div class="icon">
+            <img src="uncc-seal-gold-foil.png" alt="UNC-Charlotte" />
+          </div>
+          <div class="timeline-content">
+            <h3>Research Assistant in the Software and Information Systems Department</h3>
+            <h4>The University of North Carolina at Charlotte</h4>
+            <span class="date">Jan 2024 - May 2024 </span>
+            <p>
+              As a Research Assistant at The University of North Carolina at Charlotte, 
+              I worked with Ph.D. students to optimize and maintain MySQL and MongoDB 
+              databases, improving query performance and data accessibility. I automated 
+              data cleaning, transformation, and integration processes using Python, 
+              reducing manual effort and saving time. I performed data validation and 
+              anomaly detection using tools like Pandas and NumPy, ensuring the accuracy of 
+              research data. I contributed to data standardization and integration of large
+               datasets for cross-study analysis, while also creating data dictionaries for 
+               improved collaboration. I supported machine learning model enhancement by 
+               assisting with feature engineering and data preprocessing, improving model 
+               accuracy. Additionally, I developed interactive dashboards in Power BI to 
+               visualize research trends and statistical findings, ensuring compliance with 
+               data privacy and ethics guidelines throughout the research process.
+            </p>
+            <ul class="skills">
+              <!-- <li class="skill-box">Database Management (MySQL, MongoDB)</li> -->
+              <li class="skill-box">Database Optimization (Indexing, Query Performance Tuning)</li>
+              <!-- <li class="skill-box">Data Cleaning & Transformation (Python, Pandas, NumPy)</li> -->
+              <li class="skill-box">Data Integration (Automating ETL Processes, Data Merging)</li>
+              <li class="skill-box">Data Validation (Anomaly Detection, Missing Value Handling)</li>
+              <!-- <li class="skill-box">Data Anonymization & Security</li> -->
+              <li class="skill-box">Statistical Data Analysis (DataCamp EDA Techniques)</li>
+              <li class="skill-box">High-Performance Computing (HPC)</li>
+              <li class="skill-box">Research Ethics & Compliance (CITI Research Training)</li>
+              <li class="skill-box">Python Scripting (Automating Data Processing and Analysis)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="icon">
+            <img src="cognizant-new-logo-400px.jpg" alt="Cognizant Technology Solutions" />
+          </div>
+          <div class="timeline-content">
+            <h3>Mid-level Data Engineer</h3>
+            <h4>Cognizant Technology Solutions | Client: Truist Financial</h4>
+            <span class="date">Jan 2022 - Aug 2023 </span>
+            <p>
+              As a Data Engineer at Truist, I worked on optimizing data pipelines by
+               automating data extraction, transformation, and pre-processing tasks, 
+               improving overall efficiency by 20%. I used PySpark and SQL in Snowflake to 
+               handle customer purchasing data, performing complex transformations to 
+               categorize transactions into different spending categories like groceries, 
+               entertainment, and dining. I optimized performance using Spark techniques 
+               such as partitioning and bucketing, reducing job execution times and 
+               improving resource utilization by 25%. Additionally, I implemented adaptive 
+               query execution (AQE) in Spark, resulting in faster execution for complex 
+               data aggregations.I also developed and maintained custom ETL workflows with 
+               Python, using Pandas and NumPy for data manipulation to ensure data 
+               consistency before it was loaded into Snowflake. I automated the data 
+               pipeline management using Shell scripting and Azure Data Factory, leading to 
+               a 30% reduction in manual reporting efforts. In collaboration with marketing
+                and finance teams, I provided clean, transformed data on customer behavior, 
+                supporting targeted marketing campaigns and customer retention strategies. 
+                I ensured data privacy compliance by implementing role-based access control 
+                (RBAC) and encryption in Snowflake and Spark.
+            </p>
+            <ul class="skills">
+              <li class="skill-box">Data Pipeline Development (PySpark, SQL, ADLS Gen 2, Snowflake)</li>
+              <!-- <li class="skill-box">ETL Process Automation (Python, Shell Scripting, Azure Data Factory)</li> -->
+              <li class="skill-box">Data Transformation & Cleaning (Pandas, NumPy)</li>
+              <li class="skill-box">SQL Querying & Optimization (Complex Queries, Data Aggregations)</li>
+              <!-- <li class="skill-box">Real-Time Data Processing (Adaptive Query Execution)</li> -->
+              <li class="skill-box">Performance Optimization (Spark Partitioning, Bucketing)</li>
+              <!-- <li class="skill-box">Data Validation (Custom ETL Workflows, Data Cleansing)</li> -->
+              <li class="skill-box">Data Warehousing (Snowflake, Data Marts, Reporting)</li>
+              <li class="skill-box">Data Security & Compliance (GDPR, CCPA, RBAC)</li>
+              <li class="skill-box">Business Intelligence (Power BI)</li>
+              <!-- <li class="skill-box">Cross-Functional Collaboration</li> -->
+              <!-- <li class="skill-box">Event Planning and Coordination</li> -->
+              <li class="skill-box">Automation & Scheduling (Shell Scripts, Job Monitoring)</li>
+              <li class="skill-box">Cloud Computing (AWS, Azure)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="icon">
+            <img src="cognizant-new-logo-400px.jpg" alt="CTS" />
+          </div>
+          <div class="timeline-content">
+            <h3>Data Engineer</h3>
+            <h4>Cognizant Technology Solutions | Client: Apollo Hospitals</h4>
+            <span class="date">Nov 2020 - Dec 2021 </span>
+            <p>
+              As a Data Engineer at Truist, I worked on optimizing data pipelines by
+               automating data extraction, transformation, and pre-processing tasks, 
+               improving overall efficiency by 20%. I used PySpark and SQL in Snowflake to 
+               handle customer purchasing data, performing complex transformations to 
+               categorize transactions into different spending categories like groceries, 
+               entertainment, and dining. I optimized performance using Spark techniques 
+               such as partitioning and bucketing, reducing job execution times and 
+               improving resource utilization by 25%. Additionally, I implemented adaptive 
+               query execution (AQE) in Spark, resulting in faster execution for complex 
+               data aggregations.I also developed and maintained custom ETL workflows with 
+               Python, using Pandas and NumPy for data manipulation to ensure data 
+               consistency before it was loaded into Snowflake. I automated the data 
+               pipeline management using Shell scripting and Azure Data Factory, leading to 
+               a 30% reduction in manual reporting efforts. In collaboration with marketing
+                and finance teams, I provided clean, transformed data on customer behavior, 
+                supporting targeted marketing campaigns and customer retention strategies. 
+                I ensured data privacy compliance by implementing role-based access control 
+                (RBAC) and encryption in Snowflake and Spark.
+            </p>
+            <ul class="skills">
+              <li class="skill-box">Data Pipeline Development (PySpark, SQL, ADLS Gen 2, Snowflake)</li>
+              <!-- <li class="skill-box">ETL Process Automation (Python, Shell Scripting, Azure Data Factory)</li> -->
+              <li class="skill-box">Data Transformation & Cleaning (Pandas, NumPy)</li>
+              <!-- <li class="skill-box">SQL Querying & Optimization (Complex Queries, Data Aggregations)</li> -->
+              <!-- <li class="skill-box">Real-Time Data Processing (Adaptive Query Execution)</li> -->
+              <li class="skill-box">Performance Optimization (Spark Partitioning, Bucketing)</li>
+              <!-- <li class="skill-box">Data Validation (Custom ETL Workflows, Data Cleansing)</li> -->
+              <!-- <li class="skill-box">Data Warehousing (Snowflake, Data Marts, Reporting)</li> -->
+              <!-- <li class="skill-box">Data Security & Compliance (GDPR, CCPA, Role-Based Access Control (RBAC), Encryption)</li> -->
+              <li class="skill-box">Business Intelligence (Power BI)</li>
+              <li class="skill-box">Cross-Functional Collaboration</li>
+              <!-- <li class="skill-box">Event Planning and Coordination</li> -->
+              <!-- <li class="skill-box">Automation & Scheduling (Shell Scripts, Job Monitoring)</li> -->
+              <li class="skill-box">Cloud Computing (AWS, Azure)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="icon">
+            <img src="avanti.jpg" alt="CTS" />
+          </div>
+          <div class="timeline-content">
+            <h3>ETL Developer</h3>
+            <h4>Avanti Seeds Limited – Hyderabad, India </h4>
+            <span class="date">Jan 2020 - Oct 2020 </span>
+            <p>
+              As an ETL Developer at Avanti Seeds Limited, I optimized SQL queries and 
+              automated ETL workflows to streamline data processes across the company’s 
+              aquaculture operations, including shrimp feed production and supply chain 
+              management. I worked closely with engineers and business teams to integrate 
+              data from Hatcheries, Feed Mills, and Processing Plants, ensuring real-time 
+              availability of critical data for production analysis, inventory management, 
+              and quality control. I utilized Python, Sqoop, and Shell scripting to 
+              automate data ingestion and processing, improving efficiency and reducing 
+              manual effort. My efforts in database optimization and data validation 
+              significantly enhanced the speed and accuracy of business reporting, 
+              supporting better decision-making throughout the farm-to-fork supply chain. 
+              Additionally, I ensured data compliance with GDPR and CCPA standards, 
+              safeguarding sensitive operational data.
+            </p>
+            <ul class="skills">
+              <li class="skill-box">SQL Optimization (MySQL, Oracle)</li>
+              <!-- <li class="skill-box">Data Ingestion & Automation (Sqoop, Shell Scripting, Python)li> -->
+              <li class="skill-box">Data Transformation & Cleaning</li>
+              <!-- <li class="skill-box">SQL Querying & Optimization (Snowflake, Complex Queries, Data Aggregations)</li> -->
+              <li class="skill-box">Real-Time Data Processing (Adaptive Query Execution)</li>
+              <!-- <li class="skill-box">Performance Optimization (Spark Partitioning, Bucketing, Broadcast Joins)</li> -->
+              <li class="skill-box">Data Validation (Data Cleansing)</li>
+              <!-- <li class="skill-box">Data Warehousing (Snowflake, Data Marts, Reporting)</li> -->
+              <li class="skill-box">Data Security & Compliance (GDPR, RBAC)</li>
+              <!-- <li class="skill-box">Business Intelligence (Power BI, Report Generation, Data Insights)</li> -->
+              <li class="skill-box">Cross-Functional Collaboration</li>
+              <!-- <li class="skill-box">Event Planning and Coordination</li> -->
+              <li class="skill-box">Automation & Scheduling</li>
+              <li class="skill-box">Cloud Computing (AWS, Azure)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects-container"> -->
+        <!-- Project 1 -->
+        <!-- <div class="project-box">
+          <a href="project1.html">
+            <img src="project1.jpg" alt="Project 1" />
+            <h3>Revenue Intelligence Dashboard for AtliQ Grands Hospitality</h3>
+          </a>
+        </div> -->
+        <!-- Project 2 -->
+        <!-- <div class="project-box">
+          <a href="project2.html">
+            <img src="project2.jpg" alt="Project 2" />
+            <h3>Electronic Medical Health Record System:</h3>
+          </a>
+        </div> -->
+        <!-- Project 3 -->
+        <!-- <div class="project-box">
+          <a href="project3.html">
+            <img src="project3.jpg" alt="Project 3" />
+            <h3>Machine learning based movie recommendation System</h3>
+          </a>
+        </div> -->
+        <!-- Project 4 -->
+        <!-- <div class="project-box">
+          <a href="project4.html">
+            <img src="project4.jpg" alt="Project 4" />
+            <h3>Sales Analytics Using Excel</h3>
+          </a>
+        </div> -->
+        <!-- Project 5 -->
+        <!-- <div class="project-box">
+          <a href="project5.html">
+            <img src="project5.jpg" alt="Project 5" />
+            <h3>Expense Tracker Application</h3>
+          </a>
+        </div> -->
+        <!-- Project 6 -->
+        <!-- <div class="project-box">
+          <a href="project6.html">
+            <img src="project6.jpg" alt="Project 6" />
+            <h3>Fisheries Data Analysis Infrastructure on AWS</h3>
+          </a>
+        </div> -->
+
+        <!-- Project 7 -->
+        <!-- <div class="project-box">
+          <a href="project7.html">
+            <img src="project7.jpg" alt="Project 7" />
+            <h3>Sales Insights Using Tableau</h3>
+          </a>
+        </div> -->
+
+        <!-- Project 8 -->
+        <!-- <div class="project-box">
+          <a href="project8.html">
+            <img src="project8.jpg" alt="Project 8" />
+            <h3>Overview of Addidas Sales Using Tableau</h3>
+          </a>
+        </div> -->
+
+        <!-- Project 9 -->
+        <!-- <div class="project-box">
+          <a href="project9.html">
+            <img src="project9.jpg" alt="Project 9" />
+            <h3>Emotion Based Music AI</h3>
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+
+
+    <section id="skills" class="skills__section">
+      <div class="skills__container">
+        <h2>Technical Skills</h2>
+
+        <!-- Row 1: Programming, Data & ML, Visualization -->
+        <div class="skills__row">
+          <!-- Programming Section -->
+          <div class="skill__box">
+            <h3>Programming</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><i></i> Python</span
+              >
+              <span class="skill__item"
+                ><i></i> Java</span
+              >
+              <span class="skill__item"
+                ><i></i> SQL</span
+              >
+              <span class="skill__item"
+                ><i></i> C</span
+              >
+            </div>
+          </div>
+
+          <!-- Data & ML Section -->
+          <div class="skill__box">
+            <h3>Big Data Technologies</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                >
+                <!-- <img
+                  src="https://img.icons8.com/?size=25&id=xSkewUSqtErH&format=png&color=000000"
+                /> -->
+                Pandas</span
+              >
+              <span class="skill__item"
+                >
+                <!-- <img
+                  src="https://img.icons8.com/?size=25&id=aR9CXyMagKIS&format=png&color=000000"
+                  alt=""
+                  srcset=""
+                /> -->
+                NumPy</span
+              >
+              <span class="skill__item"
+                ><i></i> Hadoop</span
+              >
+              <span class="skill__item"
+                ><i></i> MapReduce</span
+              >
+              <span class="skill__item"
+                ><i></i> Spark</span
+              >
+              <span class="skill__item"
+                ><i></i> HDFS</span
+              >
+              <span class="skill__item"
+                ><i></i> Hive</span
+              >
+              <span class="skill__item"
+                ><i></i> Snowflake</span
+              >
+              <span class="skill__item"
+                ><i></i> Databricks</span
+              >
+              <span class="skill__item"
+                ><i></i> Hbase</span
+              >
+              <!-- <span class="skill__item">Matplotlib</span>
+              <span class="skill__item"
+                ><img
+                  src="https://img.icons8.com/?size=25&id=gTN9eaZkKLFI&format=png&color=000000"
+                />
+                Machine Learning</span
+              > -->
+              <span class="skill__item"
+                >
+                <!-- <img
+                  src="https://img.icons8.com/?size=25&id=qGm5NPoTt8SR&format=png&color=000000"
+                  alt=""
+                  srcset=""
+                /> -->
+                NLP</span
+              >
+            </div>
+          </div>
+
+          <!-- Visualization Section -->
+          <div class="skill__box">
+            <h3>Visualization</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                >
+                <!-- <img
+                  src="https://img.icons8.com/?size=25&id=qYfwpsRXEcpc&format=png&color=000000"
+                  alt=""
+                  srcset=""
+                /> -->
+                Power BI</span
+              >
+              <span class="skill__item"
+                >
+                <!-- <img
+                  src="https://img.icons8.com/?size=25&id=9Kvi1p1F0tUo&format=png&color=000000"
+                  alt=""
+                  srcset=""
+                /> -->
+                Tableau</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: Databases, Cloud & Tools, Web Tech -->
+        <div class="skills__row">
+          <!-- Databases Section -->
+          <div class="skill__box">
+            <h3>Databases</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><i></i> MySQL</span
+              >
+              <span class="skill__item"
+                ><i></i> MongoDB</span
+              >
+              <span class="skill__item"
+                ><i></i> Cassandra</span
+              >
+            </div>
+          </div>
+
+          <!-- Cloud & Tools Section -->
+          <div class="skill__box">
+            <h3>Cloud & Tools</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><i ></i> AWS S3</span
+              >
+              <span class="skill__item"
+                ><i ></i> Lambda</span
+              >
+              <span class="skill__item"
+                ><i ></i> AWS Glue</span
+              >
+              <span class="skill__item"
+                ><i ></i> EMR</span
+              >
+              <span class="skill__item"
+                ><i ></i> DMS</span
+              >
+              <span class="skill__item"
+                ><i ></i> Redshift</span
+              >
+              <span class="skill__item"
+                ><i ></i> Athena</span
+              >
+              <span class="skill__item"
+                ><i ></i> Excel</span
+              >
+              <span class="skill__item"
+                ><i></i> Azure</span
+              >
+              <span class="skill__item"
+                ><i></i> Azure Synapse</span
+              >
+              <span class="skill__item"
+                ><i></i> Azure Data Factory</span
+              >
+              <span class="skill__item">Wireshark</span>
+              <span class="skill__item">Dialogflow</span>
+            </div>
+          </div>
+
+          <!-- Web Tech Section -->
+          <div class="skill__box">
+            <h3>Web Technologies</h3>
+            <div class="skills__grid">
+              <span class="skill__item"
+                ><i></i> React</span
+              >
+              <span class="skill__item"
+                ><i></i> HTML5</span
+              >
+              <span class="skill__item"
+                ><i ></i> CSS</span
+              >
+              <span class="skill__item"
+                ><i ></i> Node.js</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education-section">
+      <div class="education-container">
+        <h2>Education</h2>
+
+        <div class="education-item">
+          <h3>Master of Science</h3>
+          <h4><strong>Information Technology</strong></h4>
+          <h4>
+            <strong>The University of North Carolina at Charlotte</strong>
+            <p><em>August 2023 - December 2024</em></p>
+          </h4>
+          <h4><strong>Coursework:</strong></h4>
+          <div class="coursework-container">
+            <div class="coursework-item">Visual Analytics</div>
+            <div class="coursework-item">Database Systems</div>
+            <div class="coursework-item">
+              Network Based Application Development
+            </div>
+            <div class="coursework-item">Knowledge Discovery in Database Systems</div>
+            <div class="coursework-item">
+              Software System Design and Implementation
+            </div>
+            <div class="coursework-item">Big Data Analytics</div>
+          </div>
+          <p><strong>GPA:</strong> 3.9/4.0</p>
+        </div>
+
+        <!-- <div class="education-item">
+          <h3>
+            Bachelor of Technology in Electronics and Communication Engineering
+          </h3>
+          <h4>Electronics and Communication Engineering</h4>
+          <h4>
+            <strong>Vellore Institute of Technology</strong>
+            <p><em>July 2019 - May 2023</em></p>
+          </h4> -->
+<!-- 
+          <h4><strong>Coursework:</strong></h4>
+          <div class="coursework-container">
+            <div class="coursework-item">Java</div>
+            <div class="coursework-item">VLSI Design</div>
+            <div class="coursework-item">Microcontrollers and Processors</div>
+            <div class="coursework-item">IoT Design</div>
+            <div class="coursework-item">Semiconductors</div>
+            <div class="coursework-item">Digital Communication Systems</div>
+          </div>
+          <p><strong>GPA:</strong> 3.5/4.0</p>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="contact" style="background-color: var(--extra-light); padding: 2rem; border-radius: 10px; text-align: center; margin: 0px auto 70px auto; width: 80%; max-width: 600px;">
+      <h2>Contact Me</h2>
+      <div class="contact-buttons">
+        <a href="https://www.linkedin.com/in/venkata-n0408/" target="_blank" class="contact-button">LinkedIn Profile</a>
+        <a href="mailto:venkatanimmagadda3@gmail.com" class="contact-button">Email Me</a>
+      </div>
+    </section>
+    
+  </body>
+</html>
